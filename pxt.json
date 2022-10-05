@@ -2,7 +2,8 @@
     "name": "Space",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1"
     },
     "files": [
         "main.blocks",
@@ -14,7 +15,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.8.30",
+        "target": "1.10.36",
         "targetId": "arcade"
     },
     "supportedTargets": [
